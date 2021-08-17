@@ -1,0 +1,44 @@
+
+body{
+    width: 1040px;
+    height:400px;
+    background: burlywood;
+}
+
+#nav{
+    float: right;
+    list-style: none;
+}
+
+#menu li{
+display: inline;
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+    background: rgb(3, 1, 17);
+    padding: 15px;
+}
+#menu li a:hover{
+    background:red;
+}
+#img{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+#banner_img{
+    width: 1040px;
+    height: 400px;
+}
+
+
+   
+
+.am{
+    text-align: center; 
+     color: white;
+     width: 1040px;
+     height: 400px ;
+     background: repeating-radial-gradient(red 10%, green 40%, #494949 50% );
+}
